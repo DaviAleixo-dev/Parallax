@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.img-banner {
+    height: 100vh;
+    background: url("../assets/explorar.webp") center center / cover;
+    background-blend-mode: color;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+
+    /* Exemplo: Flexbox Froggy */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-attachment: fixed;
+}
+
+.titulo {
+    color: #ffffff;
+    border: 2px solid white;
+    padding: 20px;
+    font-size: 32px;
+}
+
+p {
+    margin-bottom: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+
+}
+
+
+
+.img-banner2 {
+    height: 65vh;
+    background: url("../assets/praias.webp") center center / cover;
+    background-blend-mode: color;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+
+
+    /* Exemplo: Flexbox Froggy */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.icon {
+    position: absolute;
+    bottom: -30px;
+    right: 20px;
+    color: white;
+    font-size: 180px;
+    position: fixed;
+}
+
+button {
+    color: black;
+}
+
+.img-banner3 {
+    height: 65vh;
+    background: url("../assets/montanhas.webp") center center / cover;
+    background-blend-mode: color;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+
+
+    /* Exemplo: Flexbox Froggy */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.img-banner4 {
+    height: 65vh;
+    background: url("../assets/Florestas.webp") center center / cover;
+    background-blend-mode: color;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+
+
+    /* Exemplo: Flexbox Froggy */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
